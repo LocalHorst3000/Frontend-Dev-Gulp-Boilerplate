@@ -1,0 +1,25 @@
+{
+	"app":	{
+		"scss": 	"app/scss",
+		"css":		"app/css",
+		"extCss":	"app/external_css",
+		"js": 		"app/js",
+		"img": 		"app/img",
+		"tmp":		"app/.tmp",
+		"root":		"app",
+		"pug":		"app/pug/views",
+		"fonts":	"app/fonts"
+	},
+	"dist":	{
+		"css":		"dist/css",
+		"js":		"dist/js",
+		"img":		"dist/img",
+		"root":		"dist",
+		"fonts":	"dist/fonts"
+	},
+	"misc":	{
+		"browserSupport":	"> 1%', 'last 2 versions', 'Firefox ESR', 'Opera 12.1",
+		"tasksPath":		"gulp/tasks",
+		"data":				"app/pug/data.json"
+	}
+}

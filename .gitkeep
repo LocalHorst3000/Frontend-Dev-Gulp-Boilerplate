@@ -1,0 +1,17 @@
+# keep folder structure intact
+app
+app/.tmp
+app/css
+app/external_css
+app/fonts
+app/img
+app/js
+app/pug
+app/pug/layout
+app/pug/views
+app/scss
+
+dist
+dist/css
+dist/img
+dist/js

@@ -1,0 +1,26 @@
+doctype
+html(lang="de")
+	head
+		block head--meta
+			meta(charset="utf-8")
+			meta(http-equiv="X-UA-Compatible", content="IE=edge")
+			meta(name="viewport", content="width=device-width, initial-scale=1")
+
+		block head--title
+			title Page Title
+
+		block head-styles
+			link(rel="stylesheet", href="/css/style.min.css")
+
+	body
+		header.header
+			block header
+
+		main.main
+			block main
+
+		footer.footer
+			block.footer
+
+		block footer--scripts
+			script(src="/js/script.min.js")
